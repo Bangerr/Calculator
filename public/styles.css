@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color : white;
+    position: absolute;
+    left:  35%;
+    top: 25%;
+}
+
+button {
+    width: 60px;
+    height: 70px;
+    margin: 0 5px 10px 10px; /* top | right | bottom | left*/
+    font-family: "Spartan", sans-serif;
+    font-size: 1.1rem;
+    font-weight:900;
+    color: #444b5a;
+    background-color: #EAE3DC;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button{
+    border: 2px solid #EAE3DC;
+    border-radius: 10px;
+    background-color: #232C43;
+    width: 310px;
+}
+
+.display{
+    margin: 0 15px 15px 15px; /* top | right | bottom | left*/
+    background-color: #182034;
+    border-radius: 0 0 10px 10px;
+    padding-right: 10px;
+    width: 270px;
+    height: 40px;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 50px;
+}
+.miniDisplay{
+    margin: 15px 15px 0 15px; /* top & bottom | left & right*/
+    background-color: #182034;
+    border-radius: 10px 10px 0 0;
+    height: 25px;
+}
+
+.reset, .equals{
+     width: 135px;
+}
